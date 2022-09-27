@@ -2,7 +2,27 @@
     display: flex;
     background-color: #F4AFAB;
     height: 8vh;
-    /* padding: 0.5rem; */
-    justify-content: center;
-    align-content: center;
+    padding: 0.5rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar--wrapper > h1 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.navbar--links-wrapper {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    font-size: 22px;
+}
+
+.navbar--link {
+    text-decoration: none;
+    color: inherit;
 }
