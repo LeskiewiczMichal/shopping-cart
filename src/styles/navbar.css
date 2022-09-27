@@ -1,0 +1,8 @@
+.navbar--wrapper {
+    display: flex;
+    background-color: #F4AFAB;
+    height: 8vh;
+    /* padding: 0.5rem; */
+    justify-content: center;
+    align-content: center;
+}
