@@ -26,3 +26,18 @@
     text-decoration: none;
     color: inherit;
 }
+
+.navbar--cart {
+    width: 150px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    font-size: 24px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.navbar--icon {
+    width: 40px;
+}
