@@ -5,7 +5,7 @@ import shoppingCart from '../icons/shopping-cart.png';
 const Navbar = (props) => {
   return (
     <nav className="navbar--wrapper">
-      <div class="navbar--links-wrapper">
+      <div className="navbar--links-wrapper">
         <Link className="navbar--link" to="/">
           Home
         </Link>
@@ -16,7 +16,7 @@ const Navbar = (props) => {
       <h1>Shopper</h1>
       <Link className="navbar--link" to="shop">
         <div className="navbar--cart">
-          <span>23</span>
+          <span>{props.cart.length}</span>
           <img
             className="navbar--icon"
             src={shoppingCart}
