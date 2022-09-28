@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-      <Navbar />
+      <Navbar count='12'/>
       {/* <Homepage /> */}
 
       <Routes>

@@ -2,7 +2,7 @@ import '../styles/navbar.css';
 import { Link } from 'react-router-dom';
 import shoppingCart from '../icons/shopping-cart.png';
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <nav className="navbar--wrapper">
       <div class="navbar--links-wrapper">
