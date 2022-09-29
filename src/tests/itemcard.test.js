@@ -1,8 +1,7 @@
-import { getByRole, render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import ItemCard from '../components/ItemCard';
 import userEvent from '@testing-library/user-event';
-import React from 'react';
+import ItemCard from '../components/ItemCard';
 
 
 const onClickMock = jest.fn();
