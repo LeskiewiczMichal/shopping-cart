@@ -14,7 +14,7 @@ const Navbar = (props) => {
         </Link>
       </div>
       <h1>Shopper</h1>
-      <Link className="navbar--link" to="shop">
+      <Link className="navbar--link" to="shop" data-testid="secondShopLink">
         <div className="navbar--cart">
           <span>{props.cart.length}</span>
           <img

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot 1`] = `
+<div>
+  <nav
+    class="navbar--wrapper"
+  >
+    <div
+      class="navbar--links-wrapper"
+    >
+      <a
+        class="navbar--link"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        class="navbar--link"
+        href="/shop"
+      >
+        Shop
+      </a>
+    </div>
+    <h1>
+      Shopper
+    </h1>
+    <a
+      class="navbar--link"
+      data-testid="secondShopLink"
+      href="/shop"
+    >
+      <div
+        class="navbar--cart"
+      >
+        <span>
+          0
+        </span>
+        <img
+          alt="shopping cart"
+          class="navbar--icon"
+          src="shopping-cart.png"
+        />
+      </div>
+    </a>
+  </nav>
+</div>
+`;
