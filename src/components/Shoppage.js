@@ -5,7 +5,7 @@ const Shoppage = (props) => {
   const items = ['CD player', 'Mystery box', 'Book', 'Xbox', 'Bed', 'Plant'];
 
   const itemCards = items.map((item) => {
-    return <ItemCard addToCart={props.addToCart} name={item} />;
+    return <ItemCard addToCart={props.addToCart} name={item} key={item}/>;
   });
 
   return <div className="shoppage--wrapper">{itemCards}</div>;
